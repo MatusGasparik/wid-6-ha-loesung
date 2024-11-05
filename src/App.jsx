@@ -1,7 +1,7 @@
-import Typography from "@mui/material/Typography";
+import CoordsConverter from "./components/CoordsConverter";
 
 function App() {
-  return <Typography variant="h3">Hello React + MUI!</Typography>;
+  return <CoordsConverter />;
 }
 
 export default App;
