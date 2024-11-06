@@ -40,14 +40,6 @@ function CoordsConverter() {
     }
   }
 
-  useEffect(() => {
-    console.log(service);
-  }, [service]);
-
-  useEffect(() => {
-    console.log(srcCoords);
-  }, [srcCoords]);
-
   const handleSelectService = event => {
     setService(event.target.value);
   };
